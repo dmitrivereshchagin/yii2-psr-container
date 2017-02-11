@@ -1,0 +1,35 @@
+{
+    "name": "dmitrivereshchagin/yii2-psr-container",
+    "description": "PSR-11 container adapter for Yii 2",
+    "keywords": ["container", "psr-11", "yii2"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "psr/container": "^1.0@dev"
+    },
+    "require-dev": {
+        "cebe/assetfree-yii2": "~2.0.0",
+        "phpunit/phpunit": "^4.8"
+    },
+    "provide": {
+        "psr/container-implementation": "1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\psr\\container\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "yii\\psr\\container\\tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
