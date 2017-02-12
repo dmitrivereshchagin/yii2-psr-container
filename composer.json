@@ -24,6 +24,7 @@
             "yii\\psr\\container\\tests\\": "tests/"
         }
     },
+    "minimum-stability": "dev",
     "scripts": {
         "test": "phpunit"
     },
