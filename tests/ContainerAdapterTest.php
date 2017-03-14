@@ -1,7 +1,5 @@
 <?php
 
-namespace yii\psr\container\tests;
-
 use yii\di\Container;
 use yii\psr\container\ContainerAdapter;
 
@@ -65,7 +63,7 @@ class ContainerAdapterTest extends \PHPUnit_Framework_TestCase
      */
     public function testExceptionIsRaisedOnContainerFailure(ContainerAdapter $adapter)
     {
-        $adapter->get('yii\psr\container\tests\stubs\AbstractClass');
+        $adapter->get('AbstractClass');
     }
 
     /**

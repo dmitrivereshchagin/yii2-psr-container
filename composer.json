@@ -20,9 +20,9 @@
         }
     },
     "autoload-dev": {
-        "psr-4": {
-            "yii\\psr\\container\\tests\\": "tests/"
-        }
+        "classmap": [
+            "tests/_fixture/"
+        ]
     },
     "minimum-stability": "dev",
     "scripts": {
