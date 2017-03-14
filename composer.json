@@ -24,7 +24,6 @@
             "tests/_fixture/"
         ]
     },
-    "minimum-stability": "dev",
     "scripts": {
         "test": "phpunit"
     },
